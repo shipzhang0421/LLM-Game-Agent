@@ -1,6 +1,4 @@
-# LLM Game Agent 复现与升级版
-
-这是对简历项目“面向开放世界游戏的大模型决策智能体(LLM Game Agent)研发”的一个可运行复现版本，并在最小 demo 基础上继续升级为更接近正式项目的形态，重点还原以下三部分能力：
+# LLM Game Agent 
 
 - `Observation -> Thought -> Action` 的 ReAct 决策闭环
 - 基于“动作-反馈”对的滑动短记忆与失败反思
@@ -119,11 +117,3 @@ set OPENAI_TIMEOUT=120
 - `path_efficiency`：有效移动占比
 - `logic_coherence`：避免重复失败与空转的比例
 
-## 说明
-
-这个版本是“项目能力复现 + 工程升级版”，不是某个商用游戏的逆向接入版本，因此使用了可控的自建环境来稳定复现智能体工作流、记忆机制和评测逻辑。它已经具备进一步扩展到：
-
-- 真实 LLM API 接入
-- 更复杂地图生成
-- Prompt ablation 对比实验
-- 面试展示用实验报告
