@@ -1,0 +1,16 @@
+{
+  "name": "minecraft-llm-agent-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Separate Minecraft bridge for the LLM Game Agent project",
+  "main": "bridge/mineflayer_bot.js",
+  "scripts": {
+    "start": "node bridge/mineflayer_bot.js",
+    "check": "node --check bridge/mineflayer_bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mineflayer": "^4.20.1",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}
